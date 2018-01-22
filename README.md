@@ -2,6 +2,6 @@
 
 git clone https://github.com/meta-script/new
 
-sh install.sh
+sudo bash install
 
 screen -S nohup ./TD 1
