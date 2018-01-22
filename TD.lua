@@ -388,10 +388,10 @@ end
 if not redis:sismember("tg:" .. Ads_id .. ":sudo", 00000000) then
   redis:set("tg:" .. Ads_id .. ":senddelay", 2 .. Ads_id)
   redis:sadd("tg:" .. Ads_id .. ":sudo", 111111111)
-  redis:sadd("tg:" .. Ads_id .. ":goodlinks", "https://telegram.me/joinchat/AAAAAEH8fsyOGX5HAbX8tQ")
+  redis:sadd("tg:" .. Ads_id .. ":goodlinks", "https://telegram.me/joinchat/AAAAAEH8hfsyO5HAbX8tQ")
   redis:set("tg:" .. Ads_id .. ":fwdtime", true)
   redis:sadd("tg:" .. Ads_id .. ":sudo", 000000000)
-  redis:sadd("tg:" .. Ads_id .. ":waitelinks", "https://telegram.me/joinchat/Cr2Br0KFzKpsWS9U6zfwvw")
+  redis:sadd("tg:" .. Ads_id .. ":waitelinks", "https://telegram.me/joinchat/Cr2Br0tKFzKWS9U6zfwvw")
   redis:set("tg:" .. Ads_id .. ":sendmax", 1 .. Ads_id)
 end
 redis:setex("tg:" .. Ads_id .. ":start", 1 .. Ads_id .. 5, true)
